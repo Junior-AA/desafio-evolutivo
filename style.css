@@ -1,0 +1,128 @@
+/* Esta hoja de estilo no es responsive !*/
+
+:root {
+  --primary-color: rgb(48, 177, 206);
+  --secondary-color: rgb(147, 59, 153);
+  --dark-color: rgb(21, 21, 21);
+  --ligth-color: rgb(255, 255, 255);
+  --alert-color: rgb(224, 31, 31);
+
+  --air-margin:2vw;
+
+  --whatsapp-color: rgb(24, 187, 70);
+  --facebook-color: rgb(27, 78, 175);
+  --instagram-bakground: linear-gradient(90deg, rgba(212,165,14,1) 0%, rgba(121,9,55,1) 42%, rgba(83,0,255,1) 100%);        
+}
+
+* {
+  color: var(--dark-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-color);
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.main,
+.nav__content,
+.nosotros {
+  margin: auto var(--air-margin);
+}
+
+.nav {
+  background-color: var(--dark-color);
+}
+
+.nav * {
+  color: var(--ligth-color);
+}
+
+.nav__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__brand {
+  display: flex;
+  align-items: center;
+}
+
+.nav__brand-icon {
+  width: 3rem;
+}
+
+.nav__brand-name {
+  margin-left: 1vw;
+  display: inline;
+  font-size: 1.5rem;
+}
+
+.nav__list {
+  margin-right: 1vw;
+  display: flex;
+  column-gap: 2.2rem;
+}
+
+.nosotros {
+  padding: 1rem 4rem;
+  text-align: center;
+}
+
+.nosotros__horario-atencion {
+  color: var(--alert-color);
+}
+
+.servicios__title {
+  text-align: center;
+}
+
+.servicios_wrapper{
+  display: flex;
+  justify-content: space-around;
+}
+
+.servicios__content{
+  width: 20rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.servicios__img {
+  width: 20rem;
+}
+
+.footer{
+  margin: var(--air-margin);
+  text-align: center;
+}
+
+.footer_contacto{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer__icon-social-media{
+  font-size: 2rem;
+}
+
+.fa-whatsapp-square{
+  color: var(--whatsapp-color);
+}
+
+.fa-facebook-square{
+  color:var(--facebook-color);
+}
+
+.fa-instagram-square{
+  background: var(--instagram-bakground);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}

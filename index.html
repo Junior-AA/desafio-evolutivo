@@ -5,65 +5,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script  src="https://kit.fontawesome.com/ca087d8356.js" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/png" href="/assets/brand/veterinaria-border.png" />
+    <script async src="https://kit.fontawesome.com/ca087d8356.js" crossorigin="anonymous"></script>
     <title>Veterinaria Cuki</title>
+
+    <link rel="icon" type="image/png" href="/assets/brand/veterinaria-border.png" />
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <h1 href="#">
-            <img src="./assets/img/brand/veterinaria-border.png" width="100px" alt="logo Veterinaria Cuki">
-           <h1>Veterinaria Cuki</h1>
-        </a>
+    <header class="header">
+        <nav class="header__nav">
+            <div class="header__nav_content">
+                <a class="header__brand-link" href="#">
+                    <div class="header__brand">
+                        <img class="header__brand-icon" src="./assets/img/brand/veterinaria-border.png"
+                            alt="logo Veterinaria Cuki">
+                        <h1 class="header__brand-name"> Veterinaria Cuki</h1>
+                    </div>
+                </a>
+                <ul class="header__list">
+                    <li class="header__list"><a class="header__link" href="#nosotros">Nosotros</a></li>
+                    <li class="header__list"><a class="header__link" href="#servicios">Servicios</a></li>
+                    <li class="header__list"><a class="header__link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="header__nosotros" id="nosotros">
+            <p>En la Veterinaria Cuki contamos con un equipo de trabajo altamente idóneo
+                para atender a nuestros mejores amigos. Conjugamos las mejores instalaciones
+                para la atención y el cuidado de sus mascotas, con los profesionales más
+                capacitados en la asistencia veterinaria. La salud de nuestras mascotas es tan
+                importante como la de cualquier integrante de la familia.: Atención las 24 hs., los
+                365 días del año
+            </p>
         </div>
-        <nav>
-            <ul>
-                <a href="#nosotros"><li>Nosotros</li></a>
-                <a href="#servicios"><li>Servicios</li></a>
-                <a href="#contacto"><li>Contacto</li></a>
-            </ul>
-        </nav>
-        <nav id="nosotros">
-        <p>En la Veterinaria Cuki contamos con un equipo de trabajo altamente idóneo
-            para atender a nuestros mejores amigos. Conjugamos las mejores instalaciones
-            para la atención y el cuidado de sus mascotas, con los profesionales más
-            capacitados en la asistencia veterinaria. La salud de nuestras mascotas es tan
-            importante como la de cualquier integrante de la familia.: Atención las 24 hs., los
-            365 días del año</p>
-        </nav>
     </header>
-    <main>
-        <section id="servicios">
-            <h1>Servicios</h1>
-            <div>
-                <img src="./assets/img/local/consultorio.jpg" width="300px" alt="recepcion del consultorio">
-                <h3>3 Consultorios de atención simultáneas para revisiones generales,
+    <main class="main">
+        <section class="servicios" id="servicios">
+            <h1 class="servicios__title">Servicios</h1>
+            <div class="servicios__description">
+                <img class="servicios__img" src="./assets/img/local/consultorio.jpg" width="300px"
+                    alt="recepcion del consultorio">
+                <h3 class="servicios__text">3 Consultorios de atención simultáneas para revisiones generales,
                     diagnóstico y controles
                 </h3>
             </div>
-            <div>
-                <img src="./assets/img/local/consultas.webp" width="300px" alt="veterinaria revisando a un paciente perro">
-                <h3>Consultas y vacunación a domicilio, el mismo servicio con la comodidad de
+            <div class="servicios__description">
+                <img class="servicios__img" src="./assets/img/local/consultas.webp" width="300px"
+                    alt="veterinaria revisando a un paciente perro">
+                <h3 class="servicios__text">Consultas y vacunación a domicilio, el mismo servicio con la comodidad de
                     no trasladar a la mascota hacia nuestra clínica
                 </h3>
             </div>
-            <div>
-                <img src="./assets/img/local/cardiologia.jpg" width="300px" alt="veterinaria escuchando los latidos de un paciente gato">
-                <h3>Electrocardiograma, interconsultas con Médicos Veterinarios especialistas en
+            <div class="servicios__description">
+                <img class="servicios__img" src="./assets/img/local/cardiologia.jpg" width="300px"
+                    alt="veterinaria escuchando los latidos de un paciente gato">
+                <h3 class="servicios__text">Electrocardiograma, interconsultas con Médicos Veterinarios especialistas en
                     Cardiología Servicio de odontología, limpieza de dientes por ultrasonido.
                 </h3>
             </div>
         </section>
     </main>
 
-    <footer>
-        <div id="contacto">
-            <a href=""><i class="fa-brands fa-whatsapp-square"></i></a>
-            <a href=""><i class="fa-brands fa-facebook-square"></i></a>
-            <a href=""><i class="fa-brands fa-instagram-square"></i></a>
+    <footer class="footer">
+        <div class="footer__contacto" id="contacto">
+            <a class="footer__icon-social-media" href=""><i class="fa-brands fa-whatsapp-square"></i></a>
+            <a class="footer__icon-social-media" href=""><i class="fa-brands fa-facebook-square"></i></a>
+            <a class="footer__icon-social-media" href=""><i class="fa-brands fa-instagram-square"></i></a>
         </div>
-        <div>
+        <div class="footer__direccion">
             <p>Veterinaria
                 Cuki - Luis Agote 250 Bº Mirador</p>
         </div>

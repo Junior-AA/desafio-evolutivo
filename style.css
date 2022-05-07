@@ -1,0 +1,62 @@
+:root {
+  --primary-color: rgb(48, 177, 206);
+  --secondary-color: rgb(147, 59, 153);
+  --dark-color: rgb(21, 21, 21);
+  --ligth-color: rgb(255, 255, 255);
+}
+
+* {
+  color: var(--dark-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-color);
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.main,
+.header__nav_content,
+.header__nosotros {
+  margin: auto 2vw;
+}
+
+.header__nav {
+  background-color: var(--dark-color);
+}
+
+.header__nav_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav * {
+  color: var(--ligth-color);
+}
+
+.header__brand {
+  display: flex;
+  align-items: center;
+}
+
+.header__brand-icon {
+  width: 3rem;
+}
+
+.header__brand-name {
+  margin-left: 1vw;
+  display: inline;
+  font-size: 2rem;
+}
+
+.header__list {
+  margin-right: 1vw;
+  display: flex;
+  gap: 2.2rem;
+}

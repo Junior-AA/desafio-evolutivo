@@ -123,6 +123,6 @@ img {
 
 .fa-instagram-square{
   background: var(--instagram-bakground);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent; 
 }

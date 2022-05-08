@@ -4,15 +4,18 @@
   --primary-color: hsl(23, 64%, 52%);
   --secondary-color: hsl(134, 52%, 38%);
   --dark-color: hsl(0, 0%, 8%);
-  --gray-color:hsl(0, 0%, 20%);
+  --gray-color: hsl(0, 0%, 20%);
   --ligth-color: hsl(0, 0%, 100%);
   --alert-color: hsl(0, 76%, 50%);
 
-  --air-margin:2vw;
-
   --whatsapp-color: rgb(24, 187, 70);
   --facebook-color: rgb(27, 78, 175);
-  --instagram-bakground: linear-gradient(90deg, rgba(212,165,14,1) 0%, rgba(121,9,55,1) 42%, rgba(83,0,255,1) 100%);        
+  --instagram-bakground: linear-gradient(
+    90deg,
+    rgba(212, 165, 14, 1) 0%,
+    rgba(121, 9, 55, 1) 42%,
+    rgba(83, 0, 255, 1) 100%
+  );
 }
 
 * {
@@ -30,21 +33,21 @@ img {
   object-position: center;
 }
 
-.main,
-.nav__content,
-.nosotros {
-  margin: auto var(--air-margin);
+.header__wrapper,
+.main__wrapper,
+.footer__wrapper {
+  margin: auto 2vw;
 }
 
-.nav {
+.header {
   background-color: var(--gray-color);
 }
 
-.nav * {
+.header * {
   color: var(--ligth-color);
 }
 
-.nav__content {
+.header__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -76,7 +79,12 @@ img {
   text-align: center;
 }
 
+.nosotros__descripcion{
+  font-size: medium;
+}
+
 .nosotros__horario-atencion {
+  font-size: x-large;
   color: var(--alert-color);
 }
 
@@ -84,12 +92,12 @@ img {
   text-align: center;
 }
 
-.servicios_wrapper{
+.servicios_wrapper {
   display: flex;
   justify-content: space-around;
 }
 
-.servicios__content{
+.servicios__content {
   width: 20rem;
   overflow: hidden;
   display: flex;
@@ -100,30 +108,30 @@ img {
   width: 20rem;
 }
 
-.footer{
+.footer {
   margin: var(--air-margin);
   text-align: center;
 }
 
-.footer_contacto{
+.footer_contacto {
   display: flex;
   justify-content: space-evenly;
 }
 
-.footer__icon-social-media{
+.footer__icon-social-media {
   font-size: 2rem;
 }
 
-.fa-whatsapp-square{
+.fa-whatsapp-square {
   color: var(--whatsapp-color);
 }
 
-.fa-facebook-square{
-  color:var(--facebook-color);
+.fa-facebook-square {
+  color: var(--facebook-color);
 }
 
-.fa-instagram-square{
+.fa-instagram-square {
   background: var(--instagram-bakground);
   background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
 }

@@ -15,76 +15,82 @@
 
 <body>
     <header class="header">
-        <nav class="nav">
-            <div class="nav__content">
-                <a class="nav__brand-link" href="#">
-                    <div class="nav__brand">
-                        <img class="nav__brand-icon" src="./assets/img/brand/veterinaria-border.png"
-                            alt="logo Veterinaria Cuki">
-                        <h1 class="nav__brand-name"> Veterinaria Cuki</h1>
-                    </div>
-                </a>
+        <div class="header__wrapper">
+            <a class="nav__brand-link" href="#">
+                <div class="nav__brand">
+                    <img class="nav__brand-icon" src="./assets/img/brand/veterinaria-border.png"
+                        alt="logo Veterinaria Cuki">
+                    <h1 class="nav__brand-name"> Veterinaria Cuki</h1>
+                </div>
+            </a>
+            <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__list"><a class="nav__link" href="#nosotros">Nosotros</a></li>
                     <li class="nav__list"><a class="nav__link" href="#servicios">Servicios</a></li>
                     <li class="nav__list"><a class="nav__link" href="#contacto">Contacto</a></li>
                 </ul>
-            </div>
-        </nav>
-        <div class="nosotros" id="nosotros">
-            <p class="nosotros__descripcion">En la <b>Veterinaria Cuki</b> contamos con un equipo de trabajo altamente
-                idóneo
-                para atender a nuestros mejores amigos. Conjugamos <strong>las mejores instalaciones</strong>
-                para la atención y el cuidado de sus mascotas, con <strong>los profesionales más
-                    capacitados </strong> en la asistencia veterinaria. <b><i>La salud de nuestras mascotas es tan
-                        importante como la de cualquier integrante de la familia.:
-                    </i>
-            </p>
-            <h2 class="nosotros__horario-atencion">Atención las 24 hs., los
-                365 días del año
-            </h2>
+            </nav>
         </div>
     </header>
     <main class="main">
-        <section class="servicios" id="servicios">
-            <h1 class="servicios__title">Servicios</h1>
-            <div class="servicios_wrapper">
-                <div class="servicios__content">
-                    <img class="servicios__img" src="./assets/img/local/consultorio.jpg" width="300px"
-                        alt="recepcion del consultorio">
-                    <h3 class="servicios__text">3 Consultorios de atención simultáneas para revisiones generales,
-                        diagnóstico y controles
-                    </h3>
+        <div class="main__wrapper">
+            <section class="nosotros" id="nosotros">
+                <h2 class="nosotros__descripcion">En la <b>Veterinaria Cuki</b> contamos con un equipo de trabajo
+                    altamente
+                    idóneo
+                    para atender a nuestros mejores amigos. Conjugamos <strong>las mejores instalaciones</strong>
+                    para la atención y el cuidado de sus mascotas, con <strong>los profesionales más
+                        capacitados </strong> en la asistencia veterinaria. <b><i>La salud de nuestras mascotas es tan
+                            importante como la de cualquier integrante de la familia.:
+                        </i>
+                </h2>
+                <h3 class="nosotros__horario-atencion">Atención las 24 hs., los
+                    365 días del año
+                </h3>
+            </section>
+            <section class="servicios" id="servicios">
+                <h1 class="servicios__title">Servicios</h1>
+                <div class="servicios_wrapper">
+                    <div class="servicios__content">
+                        <img class="servicios__img" src="./assets/img/local/consultorio.jpg" width="300px"
+                            alt="recepcion del consultorio">
+                        <h3 class="servicios__text">3 Consultorios de atención simultáneas para revisiones generales,
+                            diagnóstico y controles
+                        </h3>
+                    </div>
+                    <div class="servicios__content">
+                        <img class="servicios__img" src="./assets/img/local/consultas.webp" width="300px"
+                            alt="veterinaria revisando a un paciente perro">
+                        <h3 class="servicios__text">Consultas y vacunación a domicilio, el mismo servicio con la
+                            comodidad
+                            de
+                            no trasladar a la mascota hacia nuestra clínica
+                        </h3>
+                    </div>
+                    <div class="servicios__content">
+                        <img class="servicios__img" src="./assets/img/local/cardiologia.jpg" width="300px"
+                            alt="veterinaria escuchando los latidos de un paciente gato">
+                        <h3 class="servicios__text">Electrocardiograma, interconsultas con Médicos Veterinarios
+                            especialistas en
+                            Cardiología Servicio de odontología, limpieza de dientes por ultrasonido.
+                        </h3>
+                    </div>
                 </div>
-                <div class="servicios__content">
-                    <img class="servicios__img" src="./assets/img/local/consultas.webp" width="300px"
-                        alt="veterinaria revisando a un paciente perro">
-                    <h3 class="servicios__text">Consultas y vacunación a domicilio, el mismo servicio con la comodidad
-                        de
-                        no trasladar a la mascota hacia nuestra clínica
-                    </h3>
-                </div>
-                <div class="servicios__content">
-                    <img class="servicios__img" src="./assets/img/local/cardiologia.jpg" width="300px"
-                        alt="veterinaria escuchando los latidos de un paciente gato">
-                    <h3 class="servicios__text">Electrocardiograma, interconsultas con Médicos Veterinarios
-                        especialistas en
-                        Cardiología Servicio de odontología, limpieza de dientes por ultrasonido.
-                    </h3>
-                </div>
-            </div>
+        </div>
         </section>
     </main>
 
     <footer class="footer">
-        <div class="footer__contacto" id="contacto">
-            <a class="footer__icon-social-media" href=""><i class="fa-brands fa-whatsapp-square"></i></a>
-            <a class="footer__icon-social-media" href=""><i class="fa-brands fa-facebook-square"></i></a>
-            <a class="footer__icon-social-media" href=""><i class="fa-brands fa-instagram-square"></i></a>
-        </div>
-        <div class="footer__direccion">
-            <p>Veterinaria
-                Cuki - Luis Agote 250 Bº Mirador</p>
+        <div class="footer__wrapper">
+            <div class="footer__contacto" id="contacto">
+                <a class="footer__icon-social-media" href=""><i class="fa-brands fa-whatsapp-square"></i></a>
+                <a class="footer__icon-social-media" href=""><i class="fa-brands fa-facebook-square"></i></a>
+                <a class="footer__icon-social-media" href=""><i class="fa-brands fa-instagram-square"></i></a>
+            </div>
+            <div class="footer__direccion">
+                <p>Veterinaria
+                    Cuki - Luis Agote 250 Bº Mirador</p>
+            </div>
         </div>
     </footer>
 </body>

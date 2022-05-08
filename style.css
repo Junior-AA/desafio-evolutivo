@@ -1,11 +1,12 @@
 /*! Esta hoja de estilo no es responsive !*/
 
 :root {
-  --primary-color: rgb(48, 177, 206);
-  --secondary-color: rgb(147, 59, 153);
-  --dark-color: rgb(21, 21, 21);
-  --ligth-color: rgb(255, 255, 255);
-  --alert-color: rgb(224, 31, 31);
+  --primary-color: hsl(23, 64%, 52%);
+  --secondary-color: hsl(134, 52%, 38%);
+  --dark-color: hsl(0, 0%, 8%);
+  --gray-color:hsl(0, 0%, 20%);
+  --ligth-color: hsl(0, 0%, 100%);
+  --alert-color: hsl(0, 76%, 50%);
 
   --air-margin:2vw;
 
@@ -36,7 +37,7 @@ img {
 }
 
 .nav {
-  background-color: var(--dark-color);
+  background-color: var(--gray-color);
 }
 
 .nav * {

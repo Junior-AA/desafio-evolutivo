@@ -1,5 +1,5 @@
 /*! Esta hoja de estilo no es responsive !*/
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100;300;400&family=Roboto:ital,wght@0,400;0,700;0,900;1,100&display=swap');
 :root {
   --primary-color: hsl(23, 64%, 52%);
   --secondary-color: hsl(134, 52%, 38%);
@@ -7,6 +7,7 @@
   --gray-color: hsl(0, 0%, 20%);
   --ligth-color: hsl(0, 0%, 100%);
   --alert-color: hsl(0, 76%, 50%);
+  --text-font:  'Roboto', sans-serif;
 
   --whatsapp-color: rgb(24, 187, 70);
   --facebook-color: rgb(27, 78, 175);
@@ -19,6 +20,7 @@
 }
 
 * {
+  font-family: var(--text-font);
   color: var(--dark-color);
 }
 

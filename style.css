@@ -1,5 +1,7 @@
 /*! Esta hoja de estilo no es responsive !*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100;300;400&family=Roboto:ital,wght@0,400;0,700;0,900;1,100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100;300;400&family=Roboto:ital,wght@0,400;0,700;0,900;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@300;400&display=swap");
+
 :root {
   --primary-color: hsl(23, 64%, 52%);
   --secondary-color: hsl(134, 52%, 38%);
@@ -7,16 +9,11 @@
   --gray-color: hsl(0, 0%, 20%);
   --ligth-color: hsl(0, 0%, 100%);
   --alert-color: hsl(0, 76%, 50%);
-  --text-font:  'Roboto', sans-serif;
+  --text-font: "Roboto", sans-serif;
 
-  --whatsapp-color: rgb(24, 187, 70);
-  --facebook-color: rgb(27, 78, 175);
-  --instagram-bakground: linear-gradient(
-    90deg,
-    rgba(212, 165, 14, 1) 0%,
-    rgba(121, 9, 55, 1) 42%,
-    rgba(83, 0, 255, 1) 100%
-  );
+  --whatsapp-color: hsl(137, 77%, 41%);
+  --facebook-color: hsl(219, 73%, 40%);
+  --instagram-bakground: hsl(305, 93%, 37%);
 }
 
 * {
@@ -81,7 +78,7 @@ img {
   text-align: center;
 }
 
-.nosotros__descripcion{
+.nosotros__descripcion {
   font-size: medium;
 }
 
@@ -133,7 +130,6 @@ img {
 }
 
 .fa-instagram-square {
-  background: var(--instagram-bakground);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--instagram-bakground);
 }
+
